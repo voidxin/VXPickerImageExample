@@ -13,6 +13,23 @@
 		57C699DB1DC8683000AF5B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C699D91DC8683000AF5B2C /* Main.storyboard */; };
 		57C699DD1DC8683000AF5B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C699DC1DC8683000AF5B2C /* Assets.xcassets */; };
 		57C699E01DC8683000AF5B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C699DE1DC8683000AF5B2C /* LaunchScreen.storyboard */; };
+		57C699EB1DC86D3400AF5B2C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C699EA1DC86D3400AF5B2C /* Photos.framework */; };
+		57C699ED1DC86D4B00AF5B2C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C699EC1DC86D4B00AF5B2C /* AssetsLibrary.framework */; };
+		57C699EF1DC86D5500AF5B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C699EE1DC86D5500AF5B2C /* UIKit.framework */; };
+		5B060D741DCA42280000552B /* VXPhotoAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D5A1DCA42280000552B /* VXPhotoAlbumController.m */; };
+		5B060D751DCA42280000552B /* VXPickerImageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D5C1DCA42280000552B /* VXPickerImageNavController.m */; };
+		5B060D761DCA42280000552B /* VXPickerImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D5E1DCA42280000552B /* VXPickerImageViewController.m */; };
+		5B060D771DCA42280000552B /* icon_image_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B060D601DCA42280000552B /* icon_image_no@2x.png */; };
+		5B060D781DCA42280000552B /* icon_image_no@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B060D611DCA42280000552B /* icon_image_no@3x.png */; };
+		5B060D791DCA42280000552B /* icon_image_yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B060D621DCA42280000552B /* icon_image_yes@2x.png */; };
+		5B060D7A1DCA42280000552B /* icon_image_yes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B060D631DCA42280000552B /* icon_image_yes@3x.png */; };
+		5B060D7B1DCA42280000552B /* VXImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D661DCA42280000552B /* VXImageModel.m */; };
+		5B060D7C1DCA42280000552B /* VXPickerImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D681DCA42280000552B /* VXPickerImage.m */; };
+		5B060D7D1DCA42280000552B /* VXPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D6A1DCA42280000552B /* VXPickerModel.m */; };
+		5B060D7E1DCA42280000552B /* UIButton+VX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D6D1DCA42280000552B /* UIButton+VX.m */; };
+		5B060D7F1DCA42280000552B /* VXPhotosScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D6F1DCA42280000552B /* VXPhotosScrollView.m */; };
+		5B060D801DCA42280000552B /* VXPickerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D711DCA42280000552B /* VXPickerBottomView.m */; };
+		5B060D811DCA42280000552B /* VXPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B060D731DCA42280000552B /* VXPickerCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,33 @@
 		57C699DC1DC8683000AF5B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C699DF1DC8683000AF5B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C699E11DC8683000AF5B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C699EA1DC86D3400AF5B2C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		57C699EC1DC86D4B00AF5B2C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		57C699EE1DC86D5500AF5B2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B060D591DCA42280000552B /* VXPhotoAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPhotoAlbumController.h; sourceTree = "<group>"; };
+		5B060D5A1DCA42280000552B /* VXPhotoAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPhotoAlbumController.m; sourceTree = "<group>"; };
+		5B060D5B1DCA42280000552B /* VXPickerImageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerImageNavController.h; sourceTree = "<group>"; };
+		5B060D5C1DCA42280000552B /* VXPickerImageNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerImageNavController.m; sourceTree = "<group>"; };
+		5B060D5D1DCA42280000552B /* VXPickerImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerImageViewController.h; sourceTree = "<group>"; };
+		5B060D5E1DCA42280000552B /* VXPickerImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerImageViewController.m; sourceTree = "<group>"; };
+		5B060D601DCA42280000552B /* icon_image_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_no@2x.png"; sourceTree = "<group>"; };
+		5B060D611DCA42280000552B /* icon_image_no@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_no@3x.png"; sourceTree = "<group>"; };
+		5B060D621DCA42280000552B /* icon_image_yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_yes@2x.png"; sourceTree = "<group>"; };
+		5B060D631DCA42280000552B /* icon_image_yes@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image_yes@3x.png"; sourceTree = "<group>"; };
+		5B060D651DCA42280000552B /* VXImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXImageModel.h; sourceTree = "<group>"; };
+		5B060D661DCA42280000552B /* VXImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXImageModel.m; sourceTree = "<group>"; };
+		5B060D671DCA42280000552B /* VXPickerImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerImage.h; sourceTree = "<group>"; };
+		5B060D681DCA42280000552B /* VXPickerImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerImage.m; sourceTree = "<group>"; };
+		5B060D691DCA42280000552B /* VXPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerModel.h; sourceTree = "<group>"; };
+		5B060D6A1DCA42280000552B /* VXPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerModel.m; sourceTree = "<group>"; };
+		5B060D6C1DCA42280000552B /* UIButton+VX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VX.h"; sourceTree = "<group>"; };
+		5B060D6D1DCA42280000552B /* UIButton+VX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VX.m"; sourceTree = "<group>"; };
+		5B060D6E1DCA42280000552B /* VXPhotosScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPhotosScrollView.h; sourceTree = "<group>"; };
+		5B060D6F1DCA42280000552B /* VXPhotosScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPhotosScrollView.m; sourceTree = "<group>"; };
+		5B060D701DCA42280000552B /* VXPickerBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerBottomView.h; sourceTree = "<group>"; };
+		5B060D711DCA42280000552B /* VXPickerBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerBottomView.m; sourceTree = "<group>"; };
+		5B060D721DCA42280000552B /* VXPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXPickerCollectionView.h; sourceTree = "<group>"; };
+		5B060D731DCA42280000552B /* VXPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXPickerCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C699EF1DC86D5500AF5B2C /* UIKit.framework in Frameworks */,
+				57C699ED1DC86D4B00AF5B2C /* AssetsLibrary.framework in Frameworks */,
+				57C699EB1DC86D3400AF5B2C /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				57C699CF1DC8683000AF5B2C /* VXPickerImage */,
+				57C699F11DC86DFE00AF5B2C /* Frameworks */,
 				57C699CE1DC8683000AF5B2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +106,7 @@
 		57C699CF1DC8683000AF5B2C /* VXPickerImage */ = {
 			isa = PBXGroup;
 			children = (
+				5B060D571DCA42280000552B /* VXPickerImages */,
 				57C699D31DC8683000AF5B2C /* AppDelegate.h */,
 				57C699D41DC8683000AF5B2C /* AppDelegate.m */,
 				57C699D61DC8683000AF5B2C /* ViewController.h */,
@@ -77,6 +126,79 @@
 				57C699D11DC8683000AF5B2C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C699F11DC86DFE00AF5B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C699EE1DC86D5500AF5B2C /* UIKit.framework */,
+				57C699EC1DC86D4B00AF5B2C /* AssetsLibrary.framework */,
+				57C699EA1DC86D3400AF5B2C /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B060D571DCA42280000552B /* VXPickerImages */ = {
+			isa = PBXGroup;
+			children = (
+				5B060D5F1DCA42280000552B /* ImageSources */,
+				5B060D581DCA42280000552B /* Controllers */,
+				5B060D641DCA42280000552B /* Models */,
+				5B060D6B1DCA42280000552B /* Views */,
+			);
+			path = VXPickerImages;
+			sourceTree = "<group>";
+		};
+		5B060D581DCA42280000552B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B060D5B1DCA42280000552B /* VXPickerImageNavController.h */,
+				5B060D5C1DCA42280000552B /* VXPickerImageNavController.m */,
+				5B060D591DCA42280000552B /* VXPhotoAlbumController.h */,
+				5B060D5A1DCA42280000552B /* VXPhotoAlbumController.m */,
+				5B060D5D1DCA42280000552B /* VXPickerImageViewController.h */,
+				5B060D5E1DCA42280000552B /* VXPickerImageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B060D5F1DCA42280000552B /* ImageSources */ = {
+			isa = PBXGroup;
+			children = (
+				5B060D601DCA42280000552B /* icon_image_no@2x.png */,
+				5B060D611DCA42280000552B /* icon_image_no@3x.png */,
+				5B060D621DCA42280000552B /* icon_image_yes@2x.png */,
+				5B060D631DCA42280000552B /* icon_image_yes@3x.png */,
+			);
+			path = ImageSources;
+			sourceTree = "<group>";
+		};
+		5B060D641DCA42280000552B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B060D651DCA42280000552B /* VXImageModel.h */,
+				5B060D661DCA42280000552B /* VXImageModel.m */,
+				5B060D671DCA42280000552B /* VXPickerImage.h */,
+				5B060D681DCA42280000552B /* VXPickerImage.m */,
+				5B060D691DCA42280000552B /* VXPickerModel.h */,
+				5B060D6A1DCA42280000552B /* VXPickerModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B060D6B1DCA42280000552B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B060D6C1DCA42280000552B /* UIButton+VX.h */,
+				5B060D6D1DCA42280000552B /* UIButton+VX.m */,
+				5B060D6E1DCA42280000552B /* VXPhotosScrollView.h */,
+				5B060D6F1DCA42280000552B /* VXPhotosScrollView.m */,
+				5B060D701DCA42280000552B /* VXPickerBottomView.h */,
+				5B060D711DCA42280000552B /* VXPickerBottomView.m */,
+				5B060D721DCA42280000552B /* VXPickerCollectionView.h */,
+				5B060D731DCA42280000552B /* VXPickerCollectionView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +227,7 @@
 		57C699C51DC8683000AF5B2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VX;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = wugumofang;
 				TargetAttributes = {
@@ -136,9 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B060D781DCA42280000552B /* icon_image_no@3x.png in Resources */,
+				5B060D7A1DCA42280000552B /* icon_image_yes@3x.png in Resources */,
+				5B060D771DCA42280000552B /* icon_image_no@2x.png in Resources */,
 				57C699E01DC8683000AF5B2C /* LaunchScreen.storyboard in Resources */,
 				57C699DD1DC8683000AF5B2C /* Assets.xcassets in Resources */,
 				57C699DB1DC8683000AF5B2C /* Main.storyboard in Resources */,
+				5B060D791DCA42280000552B /* icon_image_yes@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B060D761DCA42280000552B /* VXPickerImageViewController.m in Sources */,
+				5B060D7E1DCA42280000552B /* UIButton+VX.m in Sources */,
+				5B060D7C1DCA42280000552B /* VXPickerImage.m in Sources */,
+				5B060D741DCA42280000552B /* VXPhotoAlbumController.m in Sources */,
+				5B060D811DCA42280000552B /* VXPickerCollectionView.m in Sources */,
+				5B060D7F1DCA42280000552B /* VXPhotosScrollView.m in Sources */,
 				57C699D81DC8683000AF5B2C /* ViewController.m in Sources */,
+				5B060D7B1DCA42280000552B /* VXImageModel.m in Sources */,
+				5B060D751DCA42280000552B /* VXPickerImageNavController.m in Sources */,
 				57C699D51DC8683000AF5B2C /* AppDelegate.m in Sources */,
 				57C699D21DC8683000AF5B2C /* main.m in Sources */,
+				5B060D7D1DCA42280000552B /* VXPickerModel.m in Sources */,
+				5B060D801DCA42280000552B /* VXPickerBottomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +401,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VXPickerImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.VXPickerImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.YingXiaoGuanJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c849692c-a2ca-48f8-b4dd-5a868c5ae623";
 			};
 			name = Debug;
 		};
@@ -275,9 +414,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VXPickerImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.VXPickerImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szwgmf.YingXiaoGuanJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c849692c-a2ca-48f8-b4dd-5a868c5ae623";
 			};
 			name = Release;
 		};
@@ -300,6 +441,7 @@
 				57C699E61DC8683000AF5B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

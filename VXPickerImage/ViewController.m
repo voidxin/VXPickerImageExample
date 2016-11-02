@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "VXPickerImage.h"
+@interface ViewController ()<VXPickerImageNavControllerDelegate>
 
 @end
 
@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.imageView.userInteractionEnabled = YES;
+    self.imageView.backgroundColor = [UIColor grayColor];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
+    [self.imageView addGestureRecognizer:tap];
+    
+   
+}
+- (void)tapAction:(UITapGestureRecognizer *)tap{
+    VXPickerImageNavController *pickerVC = [[VXPickerImage alloc] returnPickerImageView];
+    pickerVC.pickerDelegate = self;
+    
+    [self presentViewController:pickerVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +36,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)selectImageComplete:(NSMutableArray *)dataArray{
+   VXImageModel *imageModel = dataArray.lastObject;
+    [self.imageView setImage:imageModel.fullScreenImage];
+}
 @end

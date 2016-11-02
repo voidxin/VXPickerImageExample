@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VXPhotoAlbumController.h
 //  VXPickerImage
 //
 //  Created by voidxin on 16/11/1.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
-
-
-
+@interface VXPhotoAlbumController : UITableViewController
+@property(nonatomic,assign)NSInteger maxCount;
 @end
-
